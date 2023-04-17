@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* Estilo de la barra de navegacion*/
+
+.Navegacion {
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo img {
+    height: 80%;
+    width: 80%;
+    border-radius: 25%;
+    object-fit: cover;
+    margin-top: 0.3rem;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin: 10px 5px ;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+.baner{
+    width: auto;
+    height: 450px;
+    background-image: url(../img/reunionPerros.jpg);
+    background-repeat: repeat;
+    background-size:cover ;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.baner p {
+    margin-top: 100px;
+    font-size: 1.8rem;
+}
+
+.AqueNosDedicamos {
+    text-align: justify;
+    padding-top: 15PX;
+    padding: 10px;
+    background-color: chartreuse;
+}
+.sub_que_hacemos{
+    text-align: center;
+
+}
+.RedesSociales {
+    background-color: chartreuse;
+    display: block;
+    justify-items: center;    
+    }
+
+.RedesSociales, a {
+display: block;
+padding-left: 10px;
+padding-bottom: 5px;
+}
+footer{
+    background-color: chartreuse;
+}
+/* CSS PARA EL SOBRE NOSOTROS.HTML*/
+.Nosotros {
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+    padding: 10px;
+}
+
+.img_Nosotros {
+    margin-left: 5px;
+    height: 170px;
+    width: 350px;
+    background-color: blueviolet;
+}
+
+.txt_Nosotros{
+    padding-left: 8px;
+    text-align: justify;
+}
+
+/* CSS PARA EL SOBRE PRODUCTOS.HTML*/
+
+.productos_varios {
+    background-color: chartreuse;
+    padding: 40px;
+    display: flex;
+}
+
+.producto {
+    background-color: chartreuse;
+    display:block;
+    margin-top: 5px;
+    
+}
+.img_producto{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.txt_Producto {
+    text-align: justify;
+    margin-top: 35px;
+}
+
+.txt_Producto, p {
+    padding-left: 5px;
+}
+/* CSS PARA EL SOBRE CONTACTO.HTML*/
+
+.Contacto-Mapa{
+    background-color: chartreuse;
+    padding-left: 10px;
+    display: flex;
+}
+.datos{
+    margin-left: 45px;
+    text-align: center;
+    padding-top: 150px;
+}
